@@ -85,3 +85,25 @@ body {
 .accordion-input:checked ~ .accordion-title .icon {
     transform: rotate(-225deg);
 }
+
+@media (min-width: 550px) and (max-width: 1023px) {
+    .wrapper {
+        width: 75%;
+    }
+
+    .wrapper-title {
+        font-size: 1.3em;
+    }
+
+    .accordion-image {
+        width: 70%;
+    }
+
+    .accordion-content {
+        justify-content: center;
+    }
+
+    .title {
+        font-size: 1.1em;
+    }
+}
