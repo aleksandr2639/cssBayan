@@ -122,10 +122,6 @@ body {
         padding: 0.5em;
     }
 
-    .wrapper:hover .title  {
-        color: #000000;
-     }
-
     .icon {
         display: none;
     }
@@ -138,8 +134,20 @@ body {
         height: 35vh;
     }
 
-    .accordion-input:hover ~ label .accordion-image  {
+}
+
+@media (hover: hover)  {
+
+    .wrapper:hover .title  {
+        color: #000000;
+     }
+
+     .accordion-input:hover ~ label .accordion-image  {
         height: 35vh;
+    }
+
+    .accordion-content:active {
+        cursor: grabbing;
     }
 
     .accordion-content:active .accordion-image{
@@ -160,5 +168,4 @@ body {
         background-size: contain;
         background-repeat: no-repeat;
      }
-
 }
