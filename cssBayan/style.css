@@ -107,3 +107,57 @@ body {
         font-size: 1.1em;
     }
 }
+
+@media (min-width: 1024px ) {
+    .wrapper {
+        width: 50%;
+        padding: 0.5em 2em;
+    }
+
+    .wrapper-title {
+        font-size: 1em;
+    }
+
+    .wrapper:hover .accordion-title  {
+       color: #000000;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .wrapper:hover .icon {
+        display: block;
+     }
+
+    .accordion-image {
+        width: 25%;
+    }
+
+    .accordion-content {
+        justify-content: center;
+    }
+
+    .accordion-item:active .accordion-title{
+       opacity: 0.7;
+       color:#159bda;
+    }
+
+    .accordion-content:active .icon {
+        opacity: 0.5;
+        display: block;
+        width: 1.5em;
+        height: 1.5em;
+        background-image: url(img/icon_2.svg);
+        background-repeat: no-repeat;
+     }
+
+     .accordion-content:active {
+        opacity: 0.5;
+     }
+
+    .title {
+        font-size: 1em;
+        padding: 0.5em;
+    }
+}
